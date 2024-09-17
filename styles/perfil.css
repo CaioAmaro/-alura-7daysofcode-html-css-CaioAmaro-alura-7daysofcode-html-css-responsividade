@@ -1,0 +1,29 @@
+.perfil{
+    display: flex;
+    align-items: center;
+    padding: 2em 7.5em 1.3em 1em;
+    gap: 1em;
+    background-color: var(--cor-box);
+}
+
+.perfil__imagem{
+    width: 57px;
+    border-radius: 50%;
+}
+
+.perfil-descricao{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-descricao__boasvindas{
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--cor-primaria);
+}
+
+.perfil-descricao__consulta{
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}

@@ -1,0 +1,17 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 1em;
+    background-color: white;
+}
+
+.cabecalho__horario{
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--cor-cabecalho);
+}
+
+.cabecalho-icons{
+    display: flex;
+    gap: 1em
+}

@@ -1,0 +1,97 @@
+.consultas-day__titulo{
+    font-weight: 700;
+    color: var(--cor-primaria);
+    padding: 0.5em 0em 0.5em 1em;
+}
+
+.consultas-day__marcadas-lista__item{
+    display: flex;
+    flex-direction: column;
+    margin: 0em 1em 1em 1em;
+    padding: 0em 0em 1em 0em;
+    background-color: var(--cor-box);
+    border-radius: 8px;
+}
+
+.informacao-paciente{
+    display: flex;
+    padding: 1.25em 0em 0.7em 1em;
+    border-bottom: 1px solid var(--cor-secundaria);
+    gap: 1em;
+}
+
+.informacao-paciente__imagem{
+    width: 32px;
+    border-radius: 50%;
+}
+
+.informacao-paciente-descricao__nomepaciente{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: var(--cor-primaria);
+    margin-bottom: 0.5em;
+}
+.informacao-tipo-consulta{
+    display: flex;
+    gap: 0.3em;
+}
+
+.informacao-tipo-consulta__modo{
+    font-size: 0.7em;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.informacao-chat{
+    margin-left: 6em;
+}
+
+
+.horario-consulta{
+    padding: 0.7em 0em 0.5em 1.5em;
+    font-size: 0.7em;
+    font-weight: 500;
+    margin-bottom: 0.7em;
+}
+
+.botoes-consulta-remoto{
+    display: flex;
+    justify-content: center;
+    gap: 1.1em;
+}
+
+.botao-video{
+    background-color: var(--cor-botao-video);
+    border-radius: 8px;
+    color: var(--cor-letra-botao);
+    font-size: 0.8em;
+    padding: 1em;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.botao-audio{
+    border: 1px solid var(--cor-secundaria);
+    border-radius: 8px;
+    font-size: 0.8em;
+    padding: 1em;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.botoes-consulta-local{
+    display: flex;
+    justify-content: center;
+}
+
+.botao-endereco{
+    background-color: var(--cor-botao-endereco);
+    border-radius: 8px;
+    color: var(--cor-letra-botao);
+    font-size: 0.8em;
+    padding: 1em 8em;
+    display: inline-block;
+    font-weight: 500;
+}
