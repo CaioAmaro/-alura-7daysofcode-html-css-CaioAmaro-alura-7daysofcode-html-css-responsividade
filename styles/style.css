@@ -1,6 +1,7 @@
 @import url(./cabecalho.css);
 @import url(./perfil.css);
 @import url(./consultas.css);
+@import url(./footer.css);
 
 :root{
     --font-primaria: "Montserrat";
@@ -12,6 +13,7 @@
     --cor-botao-video:#FFB050;
     --cor-botao-endereco:#4894FF;
     --cor-letra-botao: white;
+    --cor-texto-botao-marcado: #4894FF;
 }
 
 body{
