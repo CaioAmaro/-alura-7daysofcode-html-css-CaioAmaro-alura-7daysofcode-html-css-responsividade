@@ -95,3 +95,24 @@
     display: inline-block;
     font-weight: 500;
 }
+
+.ultimo{
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 768px){
+    .consultas-day__marcadas-lista{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .consultas-day__marcadas-lista__item{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .consultas-day__marcadas-lista__item{
+        width: 30%;
+    }
+}
